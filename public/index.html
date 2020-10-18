@@ -1,48 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Qwizzerz Trivia</title>
     <style>
-        html, body {
-            height:100%;
-            margin:0;
-        }
-        body {
-            display:flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align:center;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color:#222;
-        }
-        img {
-            width:800px;
-            max-width:95vw
-        }
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: #fff;
+        background-color: rgb(202, 0, 202);
+      }
+      .img-container {
+        background-color: rgb(77, 253, 91);
+        border-radius: 50%;
+        width: 1000px;
+        max-width: 95vw;
+        
+      }
+      img {
+        width: 800px;
+        max-width: 95vw;
+      }
+      h1 {
+        font-size: 80px;
+        font-weight: 500;
+        line-height: 90px;
+        margin-bottom: 0;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 40px;
+      }
+      @media only screen and (max-width: 600px) {
         h1 {
-            font-size:80px;
-            font-weight: 500;
-            line-height:90px;
-            margin-bottom: 0;
+          font-size: 40px;
+          line-height: 45px;
         }
-        p {
-            margin-top:10px;
-            font-size:40px;
-        }
-        @media only screen and (max-width: 600px)  {
-            h1 {
-                font-size:40px;
-                line-height:45px;
-            }
-        }
+      }
     </style>
-</head>
-<body>
-    <img src="logo.svg" alt="Qwizzerz logo">
+  </head>
+  <body>
+    <div class="img-container">
+      <img src="logo.svg" alt="Qwizzerz logo" />
+    </div>
     <h1>Qwizzers Trivia Coming Soon</h1>
     <p>Boston, MA</p>
-</body>
+  </body>
 </html>
